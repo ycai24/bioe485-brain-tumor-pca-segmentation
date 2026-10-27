@@ -1,0 +1,2 @@
+analysis_type,n_subjects,mle_mu_original,mle_sigma_original,mle_mu_segmentation,mle_sigma_segmentation,t_statistic,t_pvalue,cohens_d,mean_rmse_original,mean_rmse_segmentation,mean_variance_explained_original,mean_variance_explained_segmentation
+PCA Comparison - Original vs Segmentation,368,1.4520798268032455e-16,6.491793359870213e-17,6.978402432522635e-17,3.511975337539163e-17,19.576468919646686,5.509636864654372e-69,1.4431964360591267,1.4520798268032455e-16,6.978402432522635e-17,1.0,1.0

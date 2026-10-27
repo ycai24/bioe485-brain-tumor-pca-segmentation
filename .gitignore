@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Data files (MRI images are typically large)
+*.nii
+*.nii.gz
+*.dcm
+*.DICOM
+*.zip
+data/raw/**/*.nii
+data/raw/**/*.nii.gz
+data/processed/**/*.nii
+data/processed/**/*.nii.gz
+brats_mri_dataset/
+brats_mri_dataset.zip
+BraTS2020_TrainingData/
+BraTS2020_ValidationData/
+
+# Results (except example outputs)
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+results/segmentations/*.npy
+results/segmentations/*.nii.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.envrc
